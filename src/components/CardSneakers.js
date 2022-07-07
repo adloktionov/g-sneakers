@@ -4,7 +4,7 @@ function CardSneakers(props) {
         <div>
             <div class="d-flex  justify-around align-start">
                 <div class="">
-                    <img class="d-flex" width={500} hight={500} src={props.src} />
+                    <img class="d-flex" width={600} hight={600} src={props.src} />
                 </div>
 
                 <div class="Sneakers-description ">
@@ -18,6 +18,17 @@ function CardSneakers(props) {
                     </div>
                 </div>
             </div>
+
+            <nav id="nav-3">
+                <a class="link-3" href="#">38</a>
+                <a class="link-3" href="#">39</a>
+                <a class="link-3" href="#">40</a>
+                <a class="link-3" href="#">41</a>
+                <a class="link-3" href="#">42</a>
+                <a class="link-3" href="#">43</a>
+                <a class="link-3" href="#">44</a>
+                <a class="link-3" href="#">45</a>
+            </nav>
 
             <br />
 

@@ -14,9 +14,9 @@ function CardAnimated(props) {
                         </div>
                     </div>
                 </div>
+
+
                 <div class="face1 face21 ">
-
-
                     <div class="content1 Text_discription mb-10">
                         <p> {props.description}
                         </p>
@@ -29,7 +29,6 @@ function CardAnimated(props) {
                             <button class="simple-button">купить</button>
                         </div> */}
                     </div>
-
                 </div>
             </div>
         </div>

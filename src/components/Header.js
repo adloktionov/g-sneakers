@@ -28,7 +28,6 @@ function Header() {
                     <h1>Все кросовки</h1>
                     <div className="search-block d-flex align-center">
                         <button className="Find d-flex align-center">
-                            <img class="search" src="search.png" alt="search" />
                             Найти
                         </button>
                         <input class="ml-5" placeholder="Поиск..." />
