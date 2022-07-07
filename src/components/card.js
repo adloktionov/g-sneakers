@@ -9,7 +9,7 @@ function Сard(props) {
                 </div>
                 <div className="price mb-10">
                     <span class="prince_span">Цена:</span>
-                    <b>{props.price} рублей</b>
+                    <b>{props.price} ₽</b>
                 </div>
 
                 <div class="middle">

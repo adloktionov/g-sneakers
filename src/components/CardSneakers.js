@@ -11,7 +11,7 @@ function CardSneakers(props) {
                     <div class="zag"> <h1>Кроссовки NIKE AIR MAX 2090</h1> </div>
                     <p> {props.description}</p>
                     <span class="prince_span">Цена: </span>
-                    <b>{props.price} рублей</b>
+                    <b>{props.price} ₽</b>
 
                     <div class="middle d-flex justify-between align-center">
                         <a href="./components/CardChosen.js" class=" btn btn4">КУПИ МЕНЯ</a>

@@ -10,7 +10,7 @@ function CardAnimated(props) {
                         <div class="zag flex-wrap"> <h2>Кроссовки NIKE AIR MAX 2090</h2> </div>
                         <div className="price mb-10 d-flex">
                             <span class="prince_span">Цена:</span>
-                            <b>{props.price} рублей</b>
+                            <b>{props.price} ₽</b>
                         </div>
                     </div>
                 </div>
