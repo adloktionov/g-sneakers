@@ -1,6 +1,6 @@
 import "./App.css";
 import Card from "./components/card.js";
-import CardAnimated from "./components/CardAnimated.js";git add README.mdgit push -u origin main
+import CardAnimated from "./components/CardAnimated.js";
 import Masonry from "masonry-layout";
 import React from "react";
 import "typeface-comfortaa";
