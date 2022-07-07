@@ -14,7 +14,7 @@ function CardSneakers(props) {
                     <b>{props.price} рублей</b>
 
                     <div class="middle d-flex justify-between align-center">
-                        <a href="" class=" btn btn4">КУПИ МЕНЯ</a>
+                        <a href="./components/CardChosen.js" class=" btn btn4">КУПИ МЕНЯ</a>
                     </div>
                 </div>
             </div>

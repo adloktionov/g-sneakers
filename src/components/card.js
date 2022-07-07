@@ -13,7 +13,7 @@ function Сard(props) {
                 </div>
 
                 <div class="middle">
-                    <a href="" class="btn btn4">КУПИ МЕНЯ</a>
+                    <a href="./components/CardChosen.js" class=" btn btn4">КУПИ МЕНЯ</a>
                 </div>
                 {/* <button class="simple-button">купить</button> */}
             </div>

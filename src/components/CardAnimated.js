@@ -21,7 +21,9 @@ function CardAnimated(props) {
                         <p> {props.description}
                         </p>
                         <div class="middle d-flex justify-between align-center">
-                            <a href="" class=" btn btn4">КУПИ МЕНЯ</a>
+
+
+                            <a href="./components/CardChosen.js" class=" btn btn4">КУПИ МЕНЯ</a>
                         </div>
                         {/* <div>
                             <button class="simple-button">купить</button>
