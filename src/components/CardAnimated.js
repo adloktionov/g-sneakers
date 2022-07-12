@@ -6,7 +6,7 @@ function CardAnimated(props) {
                 <div class="face1 face12">
                     <div class="content wow fadeInUp">
 
-                        <img class="d-flex zag " width={170} hight={170} src={props.src} />
+                        <img class="d-flex zag " width={170} hight={170} src={props.src} alt="sneakers" />
                         <div class="zag flex-wrap"> <h2>Кроссовки NIKE AIR MAX 2090</h2> </div>
                         <div className="price mb-10 d-flex">
                             <span class="prince_span">Цена:</span>
@@ -21,8 +21,6 @@ function CardAnimated(props) {
                         <p> {props.description}
                         </p>
                         <div class="middle d-flex justify-between align-center">
-
-
                             <a href="./components/CardChosen.js" class=" btn btn4">КУПИ МЕНЯ</a>
                         </div>
                         {/* <div>

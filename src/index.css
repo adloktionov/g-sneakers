@@ -98,14 +98,14 @@ h2 {
   padding: 5px 60px;
   border-radius: 20px;
   border: 1px solid #000000;
-  background: #ff537c;
+  background: #ffea00;
   background: linear-gradient(to top, #ff537c, #ff61a7);
 }
 
 .examplebtn:hover {
   color: #000000 !important;
   border: 8px dashed rgb(42, 42, 42);
-  background: #00ff81;
+  background: #9fcb1a;
   background: linear-gradient(to top, #00ff81, #83f3ce);
   transition: 1s;
 }
@@ -186,7 +186,7 @@ max-width: 300px;
 /* цена в card ах */
 .price {
   text-transform: uppercase;
-  background-color: #fdf6a9;
+  background-color: #fcf5aa;
   border-radius: 10px;
   padding: 5px;
   box-shadow: 0px 10px 20px rgba($color: #000000, $alpha: 0.4);
@@ -228,7 +228,7 @@ input {
 
 
 }
-
+/* кнопка купи меня */
 .btn {
   position: relative;
   display: block;
@@ -237,7 +237,7 @@ input {
   font-family: "montserrat";
   text-decoration: none;
   margin: 30px 0;
-  border: 2px solid #ff7675;
+  border: 2px solid #ffffff;
   padding: 14px 60px;
   text-transform: uppercase;
   overflow: hidden;
@@ -246,10 +246,10 @@ input {
 }
 
 .btn::before {
-  background: #ff7675;
+  background: #ffff00;
   content: "";
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: -1;
@@ -426,3 +426,91 @@ margin-left: 80px;
   margin-bottom: 15px;
 }
 
+.addFavorite {
+  border-radius: 20px;
+  padding: 7px;
+  background-color: rgb(153, 252, 145);
+}
+
+
+.addToBasket {
+  border-radius: 20px;
+  padding: 7px;
+  background-color: rgb(255, 225, 0);
+}
+
+
+
+
+
+
+
+.liked_button {
+  height:100px;
+  margin:0 auto;
+  position: relative;
+
+
+}
+
+.liked_button .i {
+  cursor:pointer;
+  padding:10px 12px 8px;
+  background:#fff;
+  border-radius:50%;
+  display:inline-block;
+  margin:0 0 15px;
+  color:#aaa;
+  transition:.2s;
+
+}
+
+.liked_button .i:hover {
+  color:#666;
+}
+
+.liked_button .i:before {
+  font-family:fontawesome;
+  content:'\f004';
+  font-style:normal;
+}
+
+.liked_button .i {
+  position: absolute;
+  bottom:70px;
+  left:0;
+  right:0;
+  visibility: hidden;
+  transition:.6s;
+  z-index:-2;
+  font-size:2px;
+  color:transparent;
+  font-weight:400;
+}
+
+.liked_button .i .press {
+  animation: size .4s;
+  color:#e23b3b;
+
+
+}
+
+.liked_button .span.press {
+  bottom:120px;
+  font-size:14px;
+  visibility:visible;
+  animation: fade 1s;
+}
+
+@keyframes fade {
+  0% {color:#transparent;}
+  50% {color:#e23b3b;}
+  100% {color:#transparent;}
+}
+
+@keyframes size {
+  0% {padding:10px 12px 8px;}
+  50% {padding:14px 16px 12px;  
+    margin-top:-4px;}
+  100% {padding:10px 12px 8px;}
+}

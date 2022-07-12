@@ -1,9 +1,28 @@
 import React from "react";
 function Сard(props) {
     return (
+
+
+
+
         <div className="wow fadeInUp p-20  " >
             <div class="zag"> <h1>Кроссовки NIKE AIR MAX 2090</h1> </div>
-            <img class="zag" width={200} hight={200} src={props.src} />
+            <div class="d-flex justify-between">
+
+                <div >
+                    <button class="addFavorite d-flex align-center ">
+                        <img width={20} hight={20} src="/whiteHeart.png" alt="like"></img>
+                    </button>
+                </div>
+
+                <div >
+                    <button class="addToBasket d-flex align-center">
+                        <img width={20} hight={20} src="/basket.svg" alt="basket"></img>
+                    </button>
+                </div>
+            </div >
+
+            <img class="zag" width={200} hight={200} src={props.src} alt="sneakers" />
             <div>
                 <div class="Text_discription mb-10"> {props.description}
                 </div>
@@ -15,18 +34,13 @@ function Сard(props) {
                 <div class="middle">
                     <a href="./components/CardChosen.js" class=" btn btn4">КУПИ МЕНЯ</a>
                 </div>
-
-                <div class="addFavorite">
-                    <button>
-                        <h2>Добавить в "любимое"</h2>
-                    </button>
-
-                </div>
                 {/* <button class="simple-button">купить</button> */}
             </div>
-        </div>
+        </div >
     )
 }
+
+
 
 export default Сard
 
