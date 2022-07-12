@@ -138,7 +138,7 @@ header img {
 .content {
   max-width: 1200px
 }
-
+/* тег самой карточки card */
 .p-20 {
   background: linear-gradient(45deg, #4d4546, #ec7e8f);
   /* #ffbb00, #ffee00 */
@@ -175,15 +175,15 @@ max-width: 300px;
   max-height: 220px;
 
 }
-
+/* блок описания кросовок */
 .Text_discription {
-  background-color: rgb(217, 255, 155);
+  background-color: rgb(186, 250, 83);
   border-radius: 50px;
   padding: 15px;
   margin: -8px;
   font-size: 14px;
 }
-
+/* цена в card ах */
 .price {
   text-transform: uppercase;
   background-color: #fdf6a9;
@@ -194,14 +194,16 @@ max-width: 300px;
 }
 
 .prince_span {
-  box-shadow: 0px 10px 20px rgba($color: #000000, $alpha: 0.4);
+  box-shadow: 0px 10px 20px rgba($color: #000000, $alpha: 0.8);
   text-transform: uppercase;
 }
 
+
+/* блок поиска */
 .Find {
 
   padding: 15px;
-  background-color: #fff690;
+  background-color: #fff589;
   box-shadow: 0px 10px 20px rgba($color: #000000, $alpha: 0.5);
   border-radius: 12px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -216,12 +218,16 @@ input {
 }
 
 .like {
+  background-color: #cfcfcf;
   position: absolute;
   cursor: pointer;
+  z-index: 2;
+}
+
+.like:hover {
 
 
 }
-
 
 .btn {
   position: relative;
@@ -375,17 +381,17 @@ input {
   background: #333;
   color: #fff;
 }
-
+/* разевернутое описание ккросовок, которое нужно засунуть на страницу */
 .Sneakers-description {
   min-width: 400px;
   max-width: 400px;
-  background-color: rgb(217, 255, 155);
+  background: linear-gradient(45deg, #36ff0e, #44ddff);
   border-radius: 50px;
   padding: 20px;
   margin: 15px;
 
 }
-
+/* заголовог карточек card */
 .zag {
   text-transform: uppercase;
   margin: -10px;
@@ -403,10 +409,6 @@ max-width: 500px;
 margin-left: 80px;
 }
 
-#nav-3 {
-  background: #EEA200;
-  margin-bottom: 50px;
-}
 
 
 .link-3 {

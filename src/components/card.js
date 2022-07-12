@@ -15,6 +15,13 @@ function Сard(props) {
                 <div class="middle">
                     <a href="./components/CardChosen.js" class=" btn btn4">КУПИ МЕНЯ</a>
                 </div>
+
+                <div class="addFavorite">
+                    <button>
+                        <h2>Добавить в "любимое"</h2>
+                    </button>
+
+                </div>
                 {/* <button class="simple-button">купить</button> */}
             </div>
         </div>
