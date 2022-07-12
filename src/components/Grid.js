@@ -11,7 +11,8 @@ function Grid() {
                     Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!
                     "
                         price="911"
-                        src="/кросы3.png" />
+                        src="/кросы3.png"
+                        title="Кроссовки NIKE AIR MAX 2090" />
                 </div>
 
                 <div className="content d-flex flex-wrap align-start" >
@@ -19,7 +20,8 @@ function Grid() {
                     Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!
                     "
                         price="911"
-                        src="/кросы3.png" />
+                        src="/кросы3.png"
+                        title="Кроссовки NIKE AIR MAX 2090" />
                 </div>
 
                 <div className="content d-flex flex-wrap align-start" >
@@ -27,7 +29,8 @@ function Grid() {
                     Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!
                     "
                         price="911"
-                        src="/кросы3.png" />
+                        src="/кросы3.png"
+                        title="Кроссовки NIKE AIR MAX 2090" />
 
 
                 </div>
@@ -40,7 +43,8 @@ function Grid() {
                     Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!
                     "
                         price="911"
-                        src="/кросы3.png" />
+                        src="/кросы3.png"
+                        title="Кроссовки NIKE AIR MAX 2090" />
                 </div>
 
 
@@ -49,15 +53,17 @@ function Grid() {
                     Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!
                     "
                         price="911"
-                        src="/кросы3.png" />
+                        src="/кросы3.png"
+                        title="Кроссовки NIKE AIR MAX 2090" />
                 </div>
 
                 <div className="content d-flex flex-wrap align-start" >
-                    <Card ddescription="Кроссовки на любой сезон!
+                    <Card description="Кроссовки на любой сезон!
                     Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!
                     "
                         price="911"
-                        src="/кросы3.png" />
+                        src="/кросы3.png"
+                        title="Кроссовки NIKE AIR MAX 2090" />
                 </div>
 
 
@@ -69,7 +75,8 @@ function Grid() {
                     Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!
                     "
                         price="911"
-                        src="/кросы3.png" />
+                        src="/кросы3.png"
+                        title="Кроссовки NIKE AIR MAX 2090" />
                 </div>
 
                 <div className="content d-flex flex-wrap align-start" >
@@ -77,27 +84,8 @@ function Grid() {
                     Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!
                     "
                         price="911"
-                        src="/кросы3.png" />
-                </div>
-
-                <div className="content d-flex flex-wrap align-start" >
-                    <Card ddescription="Кроссовки на любой сезон!
-                    Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!
-                    "
-                        price="911"
-                        src="/кросы3.png" />
-                </div>
-
-
-            </div>
-
-            <div class="grid-item grid-item--width1">
-                <div className="content d-flex flex-wrap align-start" >
-                    <Card description="Кроссовки на любой сезон!
-                    Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!
-                    "
-                        price="911"
-                        src="/кросы3.png" />
+                        src="/кросы3.png"
+                        title="Кроссовки NIKE AIR MAX 2090" />
                 </div>
 
                 <div className="content d-flex flex-wrap align-start" >
@@ -105,19 +93,44 @@ function Grid() {
                     Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!
                     "
                         price="911"
-                        src="/кросы3.png" />
+                        src="/кросы3.png"
+                        title="Кроссовки NIKE AIR MAX 2090" />
                 </div>
 
+
+            </div>
+
+            <div class="grid-item grid-item--width2">
                 <div className="content d-flex flex-wrap align-start" >
-                    <CardAnimated ddescription="Кроссовки на любой сезон!
+                    <Card description="Кроссовки на любой сезон!
                     Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!
                     "
                         price="911"
-                        src="/кросы3.png" />
+                        src="/кросы3.png"
+                        title="Кроссовки NIKE AIR MAX 2090" />
                 </div>
+
+                <div className="content d-flex flex-wrap align-start" >
+                    <Card description="Кроссовки на любой сезон!
+                    Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!
+                    "
+                        price="911"
+                        src="/кросы3.png"
+                        title="Кроссовки NIKE AIR MAX 2090" />
+                </div>
+
+                <div className="content d-flex flex-wrap align-start" >
+                    <CardAnimated description="Кроссовки на любой сезон!
+                    Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!
+                    "
+                        price="911"
+                        src="/кросы3.png"
+                        title="Кроссовки NIKE AIR MAX 2090" />
+
+
+                </div>
+
             </div>
-
-
 
 
 

@@ -1,16 +1,13 @@
 import React from "react";
 function Сard(props) {
     return (
-
-
-
-
+        // addFavorite
         <div className="wow fadeInUp p-20  " >
-            <div class="zag"> <h1>Кроссовки NIKE AIR MAX 2090</h1> </div>
-            <div class="d-flex justify-between">
+            <div class="zag"> <h1>{props.title}</h1> </div>
 
+            <div class="d-flex justify-between">
                 <div >
-                    <button class="addFavorite d-flex align-center ">
+                    <button class=" addFavorite d-flex align-center ">
                         <img width={20} hight={20} src="/whiteHeart.png" alt="like"></img>
                     </button>
                 </div>
