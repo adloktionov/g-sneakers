@@ -7,30 +7,28 @@ function Grid() {
         <div class="grid d-flex flex-wrap justify-around">
             <div class="grid-item grid-item--width2">
                 <div className="content d-flex flex-wrap align-start" >
-                    <Card description="Кроссовки на любой сезон!
-                    Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!
-                    "
+                    <Card title="Кроссовки с узором ETRO"
+                        description="Кроссовки на любой сезон! Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!"
                         price="911"
-                        src="/кросы3.png"
-                        title="Кроссовки NIKE AIR MAX 2090" />
+                        src="/кросы7.png"
+                    />
                 </div>
 
                 <div className="content d-flex flex-wrap align-start" >
-                    <Card description="Кроссовки на любой сезон!
-                    Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!
-                    "
+                    <Card
+                        title="Кроссовки NIKE AIR MAX 2090"
+                        description="Кроссовки на любой сезон! Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!"
                         price="911"
                         src="/кросы3.png"
-                        title="Кроссовки NIKE AIR MAX 2090" />
+                    />
                 </div>
 
                 <div className="content d-flex flex-wrap align-start" >
-                    <CardAnimated description="Кроссовки на любой сезон!
-                    Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!
-                    "
+                    <CardAnimated
+                        title="Кроссовки Adidas OZWEEGO"
+                        description="Кроссовки на любой сезон! Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!"
                         price="911"
-                        src="/кросы3.png"
-                        title="Кроссовки NIKE AIR MAX 2090" />
+                        src="/кросы4.png" />
 
 
                 </div>
@@ -39,31 +37,26 @@ function Grid() {
             <div class="grid-item grid-item--width1">
 
                 <div className="content d-flex flex-wrap align-start" >
-                    <CardAnimated description="Кроссовки на любой сезон!
-                    Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!
-                    "
+                    <CardAnimated title="Кроссовки Adidas ASTIR W"
+                        description="Кроссовки на любой сезон! Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!"
                         price="911"
-                        src="/кросы3.png"
-                        title="Кроссовки NIKE AIR MAX 2090" />
+                        src="/кросы6.png" />
                 </div>
 
 
                 <div className="content d-flex flex-wrap align-start" >
-                    <Card description="Кроссовки на любой сезон!
-                    Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!
-                    "
+                    <Card title="Кроссовки NIKE AIR MAX 2090"
+                        description="Кроссовки на любой сезон! Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!"
                         price="911"
-                        src="/кросы3.png"
-                        title="Кроссовки NIKE AIR MAX 2090" />
+                        src="/кросы4.png" />
                 </div>
 
                 <div className="content d-flex flex-wrap align-start" >
-                    <Card description="Кроссовки на любой сезон!
-                    Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!
-                    "
+                    <Card title="Кроссовки Adidas OZWEEGO"
+                        description="Кроссовки на любой сезон! Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!"
                         price="911"
-                        src="/кросы3.png"
-                        title="Кроссовки NIKE AIR MAX 2090" />
+                        src="/кросы5.png"
+                    />
                 </div>
 
 
@@ -71,66 +64,59 @@ function Grid() {
 
             <div class="grid-item grid-item--width1">
                 <div className="content d-flex flex-wrap align-start" >
-                    <Card description="Кроссовки на любой сезон!
-                    Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!
-                    "
+                    <Card title="Кроссовки Adidas OZWEEGO"
+                        description="Кроссовки на любой сезон! Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!"
                         price="911"
-                        src="/кросы3.png"
-                        title="Кроссовки NIKE AIR MAX 2090" />
+                        src="/кросы5.png"
+                    />
                 </div>
 
                 <div className="content d-flex flex-wrap align-start" >
-                    <CardAnimated description="Кроссовки на любой сезон!
-                    Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!
-                    "
+                    <Card title="Кроссовки NIKE AIR MAX 2090"
+                        description="Кроссовки на любой сезон! Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!"
                         price="911"
-                        src="/кросы3.png"
-                        title="Кроссовки NIKE AIR MAX 2090" />
+                        src="/кросы4.png" />
                 </div>
 
                 <div className="content d-flex flex-wrap align-start" >
-                    <Card description="Кроссовки на любой сезон!
-                    Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!
-                    "
+                    <CardAnimated title="Кроссовки Adidas ASTIR W"
+                        description="Кроссовки на любой сезон! Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!"
                         price="911"
-                        src="/кросы3.png"
-                        title="Кроссовки NIKE AIR MAX 2090" />
+                        src="/кросы6.png" />
                 </div>
 
 
             </div>
 
-            <div class="grid-item grid-item--width2">
+            <div class="grid-item grid-item--width1">
+
                 <div className="content d-flex flex-wrap align-start" >
-                    <Card description="Кроссовки на любой сезон!
-                    Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!
-                    "
+                    <CardAnimated title="Кроссовки Adidas ASTIR W"
+                        description="Кроссовки на любой сезон! Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!"
                         price="911"
-                        src="/кросы3.png"
-                        title="Кроссовки NIKE AIR MAX 2090" />
+                        src="/кросы7.png" />
+                </div>
+
+
+                <div className="content d-flex flex-wrap align-start" >
+                    <Card title="Кроссовки NIKE AIR MAX 2090"
+                        description="Кроссовки на любой сезон! Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!"
+                        price="911"
+                        src="/кросы4.png" />
                 </div>
 
                 <div className="content d-flex flex-wrap align-start" >
-                    <Card description="Кроссовки на любой сезон!
-                    Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!
-                    "
+                    <Card title="Кроссовки Adidas OZWEEGO"
+                        description="Кроссовки на любой сезон! Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!"
                         price="911"
-                        src="/кросы3.png"
-                        title="Кроссовки NIKE AIR MAX 2090" />
+                        src="/кросы5.png"
+                    />
                 </div>
 
-                <div className="content d-flex flex-wrap align-start" >
-                    <CardAnimated description="Кроссовки на любой сезон!
-                    Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!
-                    "
-                        price="911"
-                        src="/кросы3.png"
-                        title="Кроссовки NIKE AIR MAX 2090" />
-
-
-                </div>
 
             </div>
+
+
 
 
 
