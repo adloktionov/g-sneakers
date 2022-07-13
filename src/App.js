@@ -1,8 +1,9 @@
 import "./App.css";
 import Card from "./components/card.js";
+import Contacts from "./components/Contacts";
 import CardAnimated from "./components/CardAnimated.js";
 import CardSneakers from "./components/CardSneakers.js";
-import Masonry from "masonry-layout";
+
 import React from "react";
 import "typeface-comfortaa";
 import Header from "./components/Header.js";
@@ -60,9 +61,7 @@ function App() {
         src="/кросы3.png" />
 
       <Grid></Grid>
-
-
-
+      <Contacts></Contacts>
 
     </div >
 
