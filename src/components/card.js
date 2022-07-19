@@ -19,7 +19,7 @@ function Сard(props) {
                 </div>
             </div >
 
-            <img class="zag" width={220} src={props.src} alt="sneakers" />
+            <img class="zag" width={220} src={props.imageUrl} alt="sneakers" />
             <div>
                 <div class="Text_discription mb-10"> {props.description}
                 </div>

@@ -10,8 +10,7 @@ function Grid() {
                     <Card title="Кроссовки с узором ETRO"
                         description="Кроссовки на любой сезон! Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!"
                         price="911"
-                        src="/кросы7.png"
-                    />
+                        imageUrl="/кросы7.png" />
                 </div>
 
                 <div className="content d-flex flex-wrap align-start" >
@@ -19,7 +18,7 @@ function Grid() {
                         title="Кроссовки NIKE AIR MAX 2090"
                         description="Кроссовки на любой сезон! Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!"
                         price="911"
-                        src="/кросы3.png"
+                        imageUrl="/кросы3.png"
                     />
                 </div>
 
@@ -48,14 +47,15 @@ function Grid() {
                     <Card title="Кроссовки NIKE AIR MAX 2090"
                         description="Кроссовки на любой сезон! Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!"
                         price="911"
-                        src="/кросы4.png" />
+                        imageUrl="/кросы4.png"
+                    />
                 </div>
 
                 <div className="content d-flex flex-wrap align-start" >
                     <Card title="Кроссовки Adidas OZWEEGO"
                         description="Кроссовки на любой сезон! Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!"
                         price="911"
-                        src="/кросы5.png"
+                        imageUrl="/кросы5.png"
                     />
                 </div>
 
@@ -67,7 +67,7 @@ function Grid() {
                     <Card title="Кроссовки Adidas OZWEEGO"
                         description="Кроссовки на любой сезон! Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!"
                         price="911"
-                        src="/кросы5.png"
+                        imageUrl="/кросы5.png"
                     />
                 </div>
 
@@ -75,14 +75,15 @@ function Grid() {
                     <Card title="Кроссовки NIKE AIR MAX 2090"
                         description="Кроссовки на любой сезон! Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!"
                         price="911"
-                        src="/кросы7.png" />
+                        imageUrl="/кросы7.png"
+                    />
                 </div>
 
                 <div className="content d-flex flex-wrap align-start" >
                     <CardAnimated title="Кроссовки Adidas ASTIR W"
                         description="Кроссовки на любой сезон! Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!"
                         price="911"
-                        src="/кросы6.png" />
+                        src="/кросы19 .png" />
                 </div>
 
 
@@ -102,14 +103,15 @@ function Grid() {
                     <Card title="Кроссовки NIKE AIR MAX 2090"
                         description="Кроссовки на любой сезон! Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!"
                         price="911"
-                        src="/кросы6.png" />
+                        imageUrl="/кросы6.png"
+                    />
                 </div>
 
                 <div className="content d-flex flex-wrap align-start" >
                     <Card title="Кроссовки Adidas OZWEEGO"
                         description="Кроссовки на любой сезон! Для бега, для спорта, подойдут для побега от обещаний, отлично сочетаются с ускользание от обязанностей!"
                         price="911"
-                        src="/кросы3.png"
+                        imageUrl="/кросы3.png"
                     />
                 </div>
 
