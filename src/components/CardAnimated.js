@@ -1,4 +1,7 @@
 import React from "react";
+import './CardAnimated.css';
+
+
 function CardAnimated(props) {
     return (
         <div class="wrapper1 wow fadeInUp align-start  ">
