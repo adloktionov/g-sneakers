@@ -1,0 +1,12 @@
+header {
+    border-bottom: 1px solid #cfcfcf;
+  }
+  
+  header h3,
+  header p {
+    margin: 0px;
+  }
+  
+  header img {
+    margin-right: 15px
+  }

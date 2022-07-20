@@ -9,148 +9,16 @@ body {
   background: linear-gradient(45deg, #53BF9D, #54BAB9);
 }
 
-/* черный слой сверху */
-.overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0px;
-  top: 0px;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 2
-}
-
-/* боковая корзина */
-.drawer {
-
-  position: absolute;
-  width: 390px;
-  right: 0px;
-  height: 100%;
-  background: linear-gradient(45deg, #0dd193, #fa7edf);
-  box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.8);
-}
-
-h2 {
-  margin: 30px;
-
-}
 
 
-/* ИТОГО ЦВЕТ */
-.price-box {
-  background: linear-gradient(45deg, #ffda9b, #FFC54D);
-  display: flex;
-  justify-self: space-between;
-  border: 2px solid rgb(49, 49, 49);
-  padding: 17px;
-  /* Поля вокруг текста */
-  transition: 1s;
-  border-radius: 10px;
-  padding: 10px;
-}
 
-.price-box:hover {
-  color: #000000;
-  box-shadow: 0 0 0 3px #fff;
-  -webkit-transition: color 0.3s;
-  -moz-transition: color 0.3s;
-  transition: color 0.3s;
-}
-
-/* Карточка внутри корзины */
-.cartBox {
-
-  background: linear-gradient(45deg, #ffda9b, #FFC54D);
-  border: 2px solid rgb(49, 49, 49);
-  padding: 10px;
-  /* Поля вокруг текста */
-  transition: 1s;
-}
-
-.cartBox:hover {
-  background: linear-gradient(270deg, #b7fb0b, #0cb957);
-  border: 8px dashed rgb(42, 42, 42);
-}
-
-* {
-  box-sizing: border-box;
-}
-
-/* .cartTotalBlock {
-  div {
-  flex: 1;
-  height: 1px;
-  border: 1px dashed;
-  
-   }
-  } */
-
-
-/* купи меня кнопка cartinbox */
-.examplebtn {
-  font-family: 'Comfortaa';
-  font-size: 20px;
-  color: #ffffff !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 5px 60px;
-  border-radius: 20px;
-  border: 1px solid #000000;
-  background: #ffea00;
-  background: linear-gradient(to top, #ff537c, #ff61a7);
-}
-
-.examplebtn:hover {
-  color: #000000 !important;
-  border: 8px dashed rgb(42, 42, 42);
-  background: #000000;
-  background: linear-gradient(to top, #00ff81, #83f3ce);
-  transition: 1s;
-}
-
-
-/* херня на которой лежат карточки */
-.wrapper {
-  background: linear-gradient(45deg, #ffda9b, #FFC54D);
-  border-radius: 50px;
-  max-width: 1200px;
-  margin: 0 auto;
-  height: 20000px;
-  /* max-height: 3000px; */
-
-}
-
-
-header {
-  border-bottom: 1px solid #cfcfcf;
-}
-
-header h3,
-header p {
-  margin: 0px;
-}
-
-header img {
-  margin-right: 15px
-}
 
 .content {
   max-width: 1200px
 }
-/* тег самой карточки card */
 
 
-.discription {
-  max-width: 250px;
 
-}
-
-/* .discription1 {
-max-width: 300px;
-
-} */
 
 .carousel {
 
@@ -164,16 +32,7 @@ margin-top: 40px;
 
 }
 
-.discription2 {
-  max-width: 400px;
 
-}
-
-.discription3 {
-  max-width: 250px;
-  max-height: 220px;
-
-}
 /* блок описания кросовок */
 .Text_discription {
   background-color: rgb(186, 250, 83);
@@ -192,9 +51,10 @@ margin-top: 40px;
 
 }
 
+/* цена в расширеном описании */
 .prince_span {
-  box-shadow: 0px 10px 20px rgba($color: #000000, $alpha: 0.8);
   text-transform: uppercase;
+ 
 }
 
 
@@ -216,7 +76,7 @@ input {
   background-color: #ffffff;
 }
 
-.like {
+/* .like {
   background-color: #cfcfcf;
   position: absolute;
   cursor: pointer;
@@ -225,8 +85,8 @@ input {
 
 .like:hover {
 
-
-}
+  background-color: #d71111;
+} */
 /* разевернутое описание ккросовок, которое нужно засунуть на страницу */
 .Sneakers-description {
   min-width: 400px;

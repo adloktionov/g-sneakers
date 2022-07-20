@@ -52,7 +52,7 @@ function App() {
 
   return (
     <div className="wrapper clear">
-      {/* <Over2lay></Over2lay> */}
+      {/* <Overlay></Overlay> */}
       <Header></Header>
 
 

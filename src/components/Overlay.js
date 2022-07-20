@@ -1,5 +1,7 @@
 import React from "react";
 import CartInBox from "./CartInBox.js"
+import './Overlay.css';
+
 function Overlay() {
     return (
         <div class="overlay">
