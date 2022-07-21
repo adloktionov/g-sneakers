@@ -1,0 +1,48 @@
+.Sneakers-description {
+    min-width: 400px;
+    max-width: 400px;
+    background: linear-gradient(45deg, #36ff0e, #44ddff);
+    border-radius: 50px;
+    padding: 20px;
+    margin: 15px;
+  }
+
+
+  /* заголовог карточек card */
+
+  .zag {
+    text-transform: uppercase;
+    margin: -10px;
+  }
+  /* выбор размера кроссовок */
+  nav {
+    margin-bot: 70px;
+    padding: 10px;
+    text-align: left;
+    font-family: Raleway;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    max-width: 700px;
+    flex-wrap: wrap;
+    margin-left: 0px;
+  }
+
+
+/* кнопка выбора размера кроссовок */
+  .link-3 {
+    transition: 0.4s;
+   
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 10px;
+    margin: 0 10px;
+  }
+  .link-3:hover {
+    background-color: rgb(66, 246, 255);
+    color: #000000;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+  }
+  
+ 

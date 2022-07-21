@@ -17,6 +17,7 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 15px;
+    
   }
   
   li a:hover {
@@ -25,4 +26,5 @@ ul {
     z-index: 2;
       background: linear-gradient(45deg, #36ff0e, #44ddff);
       border-radius: 50px;
+      border: 2px solid #ffffff;
   }

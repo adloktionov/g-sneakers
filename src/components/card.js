@@ -10,7 +10,7 @@ function Сard(props) {
             <div class="d-flex justify-between">
                 <div >
                     <button class=" addFavorite d-flex align-center ">
-                        <img width={20} hight={20} src="/whiteHeart.png" alt="like"></img>
+                        <img width={30} hight={50} src="/plus3.svg" alt="like"></img>
                     </button>
                 </div>
 

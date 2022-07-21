@@ -4,7 +4,7 @@ function Star_Rating() {
     return (
         <div >
             <fieldset class="rating">
-                <legend class="rating__caption">Настроение</legend>
+                <legend class="rating__caption">Оцени</legend>
                 <div class="rating__group">
 
 

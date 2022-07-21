@@ -1,5 +1,5 @@
 import React from "react";
-
+import './CardFlickity.css';
 function CardFlickity(props) {
 
 
@@ -20,16 +20,16 @@ function CardFlickity(props) {
                     <a href="./components/CardChosen.js" class=" btn btn4">КУПИ МЕНЯ</a>
                 </div>
 
-                <nav id="nav-3 d-flex  ">
-                    <a class="link-3" href="#">МУЖСКИЕ</a>
-                    <a class="link-3" href="#">ЖЕНСКИЕ</a>
 
-                </nav>
+                <li><a href="#home">МУЖСКИЕ</a></li>
+                <li><a href="#news">ЖЕНСКИЕ</a></li>
 
 
-            </div>
 
-            <nav id="nav-3  ">
+
+            </div >
+
+            <nav id="nav-3 ">
                 <a class="link-3" href="#">35</a>
                 <a class="link-3" href="#">36</a>
                 <a class="link-3" href="#">37</a>
@@ -43,7 +43,7 @@ function CardFlickity(props) {
                 <a class="link-3" href="#">45</a>
             </nav>
             <div class="flex-row"></div>
-        </div>
+        </div >
     )
 }
 
