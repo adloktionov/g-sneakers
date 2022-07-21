@@ -1,5 +1,6 @@
 import React from "react";
 import './card.css';
+import Star_Rating from "./Star_Rating.js";
 function Сard(props) {
     return (
         // addFavorite
@@ -32,6 +33,8 @@ function Сard(props) {
                 <div class="middle">
                     <a href="./components/CardChosen.js" class=" btn btn4">КУПИ МЕНЯ</a>
                 </div>
+
+                <Star_Rating></Star_Rating>
                 {/* <button class="simple-button">купить</button> */}
             </div>
         </div >
