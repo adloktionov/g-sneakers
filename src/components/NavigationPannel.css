@@ -1,0 +1,28 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: rgb(180, 196, 199); */
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  li a:hover {
+    transition-duration: 2s;
+    font-size: 25px; 
+    z-index: 2;
+      background: linear-gradient(45deg, #36ff0e, #44ddff);
+      border-radius: 50px;
+  }

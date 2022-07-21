@@ -23,8 +23,8 @@ function Header() {
                 </ul>
             </header>
 
-            <div div className="content p-40" >
-                <div className="d-flex alighn-center mb-40 justify-between">
+            <div div className="content m-40" >
+                <div className="d-flex alighn-center mb-10 justify-between">
                     <h1>Все кросовки</h1>
                     <div className="search-block d-flex align-center">
                         <button className="Find d-flex align-center">

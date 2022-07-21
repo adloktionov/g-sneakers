@@ -13,6 +13,7 @@ import CardChosen from "./components/CardChosen.js"
 import CardFlickity from "./components/CardFlickity.js"
 // import Card3 from "./components/Сard3.js";
 // import Grid from "./components/grid.js";
+import NavigationPannel from "./components/NavigationPannel.js";
 
 const arr = [
 
@@ -54,7 +55,7 @@ function App() {
     <div className="wrapper clear">
       {/* <Overlay></Overlay> */}
       <Header></Header>
-
+      <NavigationPannel></NavigationPannel>
 
       <div class="grid d-flex flex-wrap justify-around">
         {arr.map((obj) => (
