@@ -4,7 +4,7 @@ import Contacts from "./components/Contacts";
 import CardAnimated from "./components/CardAnimated.js";
 import CardSneakers from "./components/CardSneakers.js";
 
-import React from "react";
+import React, { useState } from "react";
 import "typeface-comfortaa";
 import Header from "./components/Header.js";
 import Grid from "./components/Grid.js";
@@ -18,6 +18,8 @@ import NavigationPannel from "./components/NavigationPannel.js";
 const arr = [
 
   {
+    category: "Run",
+    id: 'pink-sneak',
     name: 'Крайне пафосные мужские кроссовки для нижайшего флекса',
     price: 12999,
     imageUrl: '/кросы7.png',
@@ -26,6 +28,8 @@ const arr = [
 
 
   {
+    category: "Bascketball",
+    id: 'yellow-whtie',
     name: 'Глубоко кринжовые кросы для олдовых бумеров',
     price: 17200,
     imageUrl: '/кросы6.png',
@@ -33,6 +37,8 @@ const arr = [
   },
 
   {
+    category: "Run",
+    id: 'total-white',
     name: 'То,что ты не можешь пропустить',
     price: 47200,
     imageUrl: '/кросы5.png',
@@ -40,6 +46,8 @@ const arr = [
   },
 
   {
+    category: "Bascketball",
+    id: 'Mc-Fly-sneak',
     name: 'Постарайся не кончить это же',
     price: 47200,
     imageUrl: '/кросы19 .png',
@@ -49,20 +57,28 @@ const arr = [
 ];
 
 
+
 function App() {
+
+  const [category, setCategory] = useState("")
 
   return (
     <div className="wrapper clear">
       {/* <Overlay></Overlay> */}
       <Header></Header>
-      <NavigationPannel></NavigationPannel>
+      <NavigationPannel
+        onChange={setCategory}
+      ></NavigationPannel>
+      {category}
 
       <div class="grid d-flex flex-wrap justify-around">
-        {arr.map((obj) => (
-          <Card title={obj.name}
-            price={obj.price}
-            imageUrl={obj.imageUrl}
-            description={obj.description}
+        {arr.filter((item) => item.category == category).map((item) => (
+          <Card
+            id={item.id}
+            title={item.name}
+            price={item.price}
+            imageUrl={item.imageUrl}
+            description={item.description}
           />
         ))
         }

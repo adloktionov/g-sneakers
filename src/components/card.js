@@ -34,7 +34,8 @@ function Сard(props) {
                     <a href="./components/CardChosen.js" class=" btn btn4">КУПИ МЕНЯ</a>
                 </div>
 
-                <Star_Rating></Star_Rating>
+                <Star_Rating
+                    id={props.id} />
                 {/* <button class="simple-button">купить</button> */}
             </div>
         </div >
